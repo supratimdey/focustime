@@ -14,6 +14,7 @@ import { Timer } from './src/features/timer';
 import { FocusHistory } from './src/features/focusHistory';
 
 export default function App() {
+console.log('yolo');
   const [currentSubject, setCurrentSubject] = useState(null);
   const [history, setHistory] = useState([]);
 
